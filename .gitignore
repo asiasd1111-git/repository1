@@ -1,0 +1,33 @@
+# Байт-код / кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Кэши инструментов
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Артефакты сборки
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Файлы окружения
+.env
